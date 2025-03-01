@@ -1,0 +1,25 @@
+E:\Keyboard simulator\bin\Release\net6.0-windows\Keyboard simulator.exe
+E:\Keyboard simulator\bin\Release\net6.0-windows\Keyboard simulator.deps.json
+E:\Keyboard simulator\bin\Release\net6.0-windows\Keyboard simulator.runtimeconfig.json
+E:\Keyboard simulator\bin\Release\net6.0-windows\Keyboard simulator.dll
+E:\Keyboard simulator\bin\Release\net6.0-windows\ref\Keyboard simulator.dll
+E:\Keyboard simulator\bin\Release\net6.0-windows\Keyboard simulator.pdb
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+E:\Keyboard simulator\obj\Release\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+E:\Keyboard simulator\obj\Release\net6.0-windows\Resources HAML\Theme\Dark.baml
+E:\Keyboard simulator\obj\Release\net6.0-windows\Resources HAML\Theme\Light.baml
+E:\Keyboard simulator\obj\Release\net6.0-windows\MainWindow.g.cs
+E:\Keyboard simulator\obj\Release\net6.0-windows\App.g.cs
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+E:\Keyboard simulator\obj\Release\net6.0-windows\App.baml
+E:\Keyboard simulator\obj\Release\net6.0-windows\MainWindow.baml
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.g.resources
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.dll
+E:\Keyboard simulator\obj\Release\net6.0-windows\ref\Keyboard simulator.dll
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.pdb
+E:\Keyboard simulator\obj\Release\net6.0-windows\Keyboard simulator.genruntimeconfig.cache

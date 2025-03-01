@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Клавиши-->
+    <SolidColorBrush x:Key="Thumb" Color="#FF68E0CF"/>
+    
+    <SolidColorBrush x:Key="LeftIndexFinger" Color="#FFD387E5"/>
+    <SolidColorBrush x:Key="LeftMiddleFinger" Color="#FFF3C639"/>
+    <SolidColorBrush x:Key="LeftRingFinger" Color="#FF92D3DD"/>
+    <SolidColorBrush x:Key="LeftFingerPinky" Color="#FFDDE980"/>
+
+    <SolidColorBrush x:Key="RightIndexFinger" Color="#FF7EDC8A"/>
+    <SolidColorBrush x:Key="RightMiddleFinger" Color="#FF8897E2"/>
+    <SolidColorBrush x:Key="RightRingFinger" Color="#FFE3F084"/>
+    <SolidColorBrush x:Key="RightFingerPinky" Color="#FFEE8B8B"/>
+
+    <!--Корпус клавиатуры-->
+    <Style x:Key="KeyboardCase" TargetType="Border">
+        <Setter Property="Background" Value="#FFEDEDED"/>
+        <Setter Property="CornerRadius" Value="20"/>
+        <Setter Property="BorderThickness" Value="5"/>
+        <Setter Property="BorderBrush" Value="LightGray"/>
+    </Style>
+</ResourceDictionary>

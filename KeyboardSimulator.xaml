@@ -1,0 +1,570 @@
+﻿<Window x:Class="Keyboard_simulator.KeyboardSimulator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Keyboard_simulator"
+        mc:Ignorable="d"
+        Title="KeyboardSimulator" Height="704" Width="1114" KeyDown = "LearningWindow_KeyDown" KeyUp="Window_KeyUp" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Window.Background>
+        <ImageBrush ImageSource="/Menu.png"/>
+    </Window.Background>
+    <Grid>
+        <!--Тренажер-->
+        <Grid x:Name="Trenacher">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="350"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="1050"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!--_____________________Строка вывода текста_____________________-->
+            <Border  Grid.Column="1" Grid.Row="1"  Background="#FF313131" CornerRadius ="10" BorderBrush="#FF4A4A4A" BorderThickness="10,10,10,10.2" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Background="#FF075C62" >
+                            <TextBlock Text="&lt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="lessonNum" Text="Урок №1" Foreground="#FF4A70E9" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="&gt; &lt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="✓:" Foreground="#FF078F00" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="SignsYes" Text="0" Foreground="#FF078F00" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="&gt; &lt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="✕: " Foreground="#FFB73C3C" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="SignsNo" Text="0" Foreground="#FFB73C3C" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <!--<TextBlock Text="&gt; &lt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="WPM: " Foreground="#FFD2B913" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="WPM" Text="0" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>-->
+                            <TextBlock Text="&gt; &lt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="⏱" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="TimeMin" Text="00" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text=":" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="TimeSec" Text="00" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="&gt; &lt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            <Border MouseLeftButtonUp="Border_MouseLeftButtonUp" >
+                                <TextBlock x:Name="Stop" Text="Stop" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                            </Border>
+                            <TextBlock Text="&gt;" Foreground="White" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="7" Grid.Row="1">
+                        <TextBlock x:Name="ItemStart" FontSize="40" Foreground="#FF9B9999" Text="" FontFamily="Tahoma" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+                        <TextBlock x:Name="ItemCentre" FontSize="40" Foreground="#FF5CE7EB" TextDecorations="Underline" Text="" FontFamily="Tahoma"/>
+                        <TextBlock x:Name="ItemEnd" FontSize="40" Foreground="White" Text="" FontFamily="Tahoma"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <!--__________________Клавиши_________________-->
+            <Border Grid.Row="2" Grid.Column="1" Style="{StaticResource KeyboardCase}" Background="#FF91A0B7">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="0" Background="{StaticResource LeftFingerPinky}" x:Name="id1">
+                            <Grid>
+                                <TextBlock Text="~" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,-7,0,0"  FontSize="30"/>
+                                <TextBlock Text="`" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,21,0,0"  FontSize="30"/>
+                                <TextBlock Text="Ё" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7,0,10,4"  FontSize="24"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="1" Background="{StaticResource LeftRingFinger}" x:Name="id2">
+                            <Grid>
+                                <TextBlock Text="!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,-2,0,0"  FontSize="20"/>
+                                <TextBlock Text="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="2" Background="{StaticResource LeftRingFinger}" x:Name="id3">
+                            <Grid>
+                                <TextBlock Text="@" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="&quot;" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,4,0"  FontSize="25"/>
+                                <TextBlock Text="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="3" Background="{StaticResource LeftMiddleFinger}" x:Name="id4">
+                            <Grid>
+                                <TextBlock Text="#" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="№" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,4,0"  FontSize="15"/>
+                                <TextBlock Text="3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="4" Background="{StaticResource LeftMiddleFinger}" x:Name="id5">
+                            <Grid>
+                                <TextBlock Text="$" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text=";" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-4,8,0"  FontSize="20"/>
+                                <TextBlock Text="4" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="5" Background="{StaticResource LeftIndexFinger}" x:Name="id6">
+                            <Grid>
+                                <TextBlock Text="%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="5" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="6" Background="{StaticResource LeftIndexFinger}" x:Name="id7">
+                            <Grid>
+                                <TextBlock Text="^" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text=":" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-4,8,0"  FontSize="20"/>
+                                <TextBlock Text="6" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="7" Background="{StaticResource RightIndexFinger}" x:Name="id8">
+                            <Grid>
+                                <TextBlock Text="&amp;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="?" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-2,4,0"  FontSize="20"/>
+                                <TextBlock Text="7" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="8" Background="{StaticResource RightIndexFinger}" x:Name="id9">
+                            <Grid>
+                                <TextBlock Text="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="8" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="9" Background="{StaticResource RightMiddleFinger}" x:Name="id10">
+                            <Grid>
+                                <TextBlock Text="(" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="9" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="10" Background="{StaticResource RightRingFinger}" x:Name="id11">
+                            <Grid>
+                                <TextBlock Text=")" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,-3,0,0"  FontSize="20"/>
+                                <TextBlock Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,7,0,0"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="11" Background="{StaticResource RightFingerPinky}" x:Name="id12">
+                            <Grid>
+                                <TextBlock Text="_" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-24,11,0"  FontSize="40"/>
+                                <TextBlock Text="-" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="40" Margin="10,0,0,0"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="12" Background="{StaticResource RightFingerPinky}" x:Name="id13">
+                            <Grid>
+                                <TextBlock Text="+" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-10,11,0"  FontSize="30"/>
+                                <TextBlock Text="=" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="30" Margin="10,10,0,0"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="13" Background="{StaticResource RightFingerPinky}" x:Name="id14">
+                            <Grid>
+                                <TextBlock Text="Backspace" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="15" FontWeight="Normal" />
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="95"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="80"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="0" Background="{StaticResource LeftFingerPinky}" x:Name="id15">
+                            <Grid>
+                                <TextBlock Text="Tab" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="1" Background="{StaticResource LeftFingerPinky}" x:Name="id16">
+                            <Grid>
+                                <TextBlock Text="Q" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Й" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="2" Background="{StaticResource LeftRingFinger}" x:Name="id17">
+                            <Grid>
+                                <TextBlock Text="W" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Ц" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="3" Background="{StaticResource LeftMiddleFinger}" x:Name="id18">
+                            <Grid>
+                                <TextBlock Text="E" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="У" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="4" Background="{StaticResource LeftIndexFinger}" x:Name="id19">
+                            <Grid>
+                                <TextBlock Text="R" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24" />
+                                <TextBlock Text="К" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="5" Background="{StaticResource LeftIndexFinger}" x:Name="id20">
+                            <Grid>
+                                <TextBlock Text="T" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Е" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="6" Background="{StaticResource RightIndexFinger}" x:Name="id21">
+                            <Grid>
+                                <TextBlock Text="Y" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Н" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="7" Background="{StaticResource RightIndexFinger}" x:Name="id22">
+                            <Grid>
+                                <TextBlock Text="U" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Г" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="8" Background="{StaticResource RightMiddleFinger}" x:Name="id23">
+                            <Grid>
+                                <TextBlock Text="I" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Ш" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="9" Background="{StaticResource RightRingFinger}" x:Name="id24">
+                            <Grid>
+                                <TextBlock Text="O" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Щ" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="10" Background="{StaticResource RightFingerPinky}" x:Name="id25">
+                            <Grid>
+                                <TextBlock Text="P" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="З" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="11" Background="{StaticResource RightFingerPinky}" x:Name="id26">
+                            <Grid>
+                                <TextBlock Text="⠀{" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  FontSize="15"/>
+                                <TextBlock Text="⠀[" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,10"  FontSize="15"/>
+                                <TextBlock Text="Х" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="12" Background="{StaticResource RightFingerPinky}" x:Name="id27">
+                            <Grid>
+                                <TextBlock Text="⠀}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  FontSize="15"/>
+                                <TextBlock Text="⠀]" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,10"  FontSize="15"/>
+                                <TextBlock Text="Ъ" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="13" Background="{StaticResource RightFingerPinky}" x:Name="id28">
+                            <Grid>
+                                <TextBlock Text="|" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,0,0,0"  FontSize="18"/>
+                                <TextBlock Text="\" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="15,0,0,7"  FontSize="18"/>
+                                <TextBlock Text="/" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,0,15,0"  FontSize="18"/>
+                                <TextBlock Text="\" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,15,7"  FontSize="18"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="125"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="120"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="0" Background="{StaticResource LeftFingerPinky}" x:Name="id29">
+                            <Grid>
+                                <TextBlock Text="CapsLk" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+                                <Ellipse HorizontalAlignment="Left" Height="10" Margin="92,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="10" Fill="White"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="1" Background="{StaticResource LeftFingerPinky}" x:Name="id30">
+                            <Grid>
+                                <TextBlock Text="A" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Ф" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="2" Background="{StaticResource LeftRingFinger}" x:Name="id31">
+                            <Grid>
+                                <TextBlock Text="S" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Ы" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="3" Background="{StaticResource LeftMiddleFinger}" x:Name="id32">
+                            <Grid>
+                                <TextBlock Text="D" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="В" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="4" Background="{StaticResource LeftIndexFinger}" x:Name="id33">
+                            <Grid>
+                                <TextBlock Text="F" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="А" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                                <Ellipse HorizontalAlignment="Center" Height="2" Margin="0,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" StrokeThickness="3"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="5" Background="{StaticResource LeftIndexFinger}" x:Name="id34">
+                            <Grid>
+                                <TextBlock Text="G" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="П" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="6" Background="{StaticResource RightIndexFinger}" x:Name="id35">
+                            <Grid>
+                                <TextBlock Text="H" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Р" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="7" Background="{StaticResource RightIndexFinger}" x:Name="id36">
+                            <Grid>
+                                <TextBlock Text="J" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="О" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                                <Ellipse HorizontalAlignment="Center" Height="2" Margin="0,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" StrokeThickness="3"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="8" Background="{StaticResource RightMiddleFinger}" x:Name="id37">
+                            <Grid>
+                                <TextBlock Text="K" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Л" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="9" Background="{StaticResource RightRingFinger}" x:Name="id38">
+                            <Grid>
+                                <TextBlock Text="L" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Д" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="10" Background="{StaticResource RightFingerPinky}" x:Name="id39">
+                            <Grid>
+                                <TextBlock Text="⠀:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  FontSize="17"/>
+                                <TextBlock Text="⠀;" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,10"  FontSize="17"/>
+                                <TextBlock Text="Ж" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="11" Background="{StaticResource RightFingerPinky}" x:Name="id40">
+                            <Grid>
+                                <TextBlock Text="&quot;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,7,0,0"  FontSize="20"/>
+                                <TextBlock Text="'" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="8,0,0,7"  FontSize="20"/>
+                                <TextBlock Text="Э" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="12" Background="{StaticResource RightFingerPinky}" x:Name="id41">
+                            <Grid>
+                                <TextBlock Text="⠀Enter" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="6"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="155"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="0" Background="{StaticResource LeftFingerPinky}" x:Name="id42">
+                            <Grid>
+                                <TextBlock Text="Shift" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="1" Background="{StaticResource LeftRingFinger}" x:Name="id43">
+                            <Grid>
+                                <TextBlock Text="Z" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Я" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="2" Background="{StaticResource LeftMiddleFinger}" x:Name="id44">
+                            <Grid>
+                                <TextBlock Text="X" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Ч" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="3" Background="{StaticResource LeftIndexFinger}" x:Name="id45">
+                            <Grid>
+                                <TextBlock Text="C" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="С" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="4" Background="{StaticResource LeftIndexFinger}" x:Name="id46">
+                            <Grid>
+                                <TextBlock Text="V" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="М" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="5" Background="{StaticResource LeftIndexFinger}" x:Name="id47">
+                            <Grid>
+                                <TextBlock Text="B" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="И" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="6" Background="{StaticResource RightIndexFinger}" x:Name="id48">
+                            <Grid>
+                                <TextBlock Text="N" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Т" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="7" Background="{StaticResource RightIndexFinger}" x:Name="id49">
+                            <Grid>
+                                <TextBlock Text="M" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0"  FontSize="24"/>
+                                <TextBlock Text="Ь" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                                <Ellipse HorizontalAlignment="Center" Height="2" Margin="0,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" StrokeThickness="3"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="8" Background="{StaticResource RightMiddleFinger}" x:Name="id50">
+                            <Grid>
+                                <TextBlock Text="⠀&lt;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  FontSize="20"/>
+                                <TextBlock Text="⠀," HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,10"  FontSize="25"/>
+                                <TextBlock Text="Б" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="9" Background="{StaticResource RightRingFinger}" x:Name="id51">
+                            <Grid>
+                                <TextBlock Text="⠀&gt;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  FontSize="20"/>
+                                <TextBlock Text="⠀." HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,10"  FontSize="25"/>
+                                <TextBlock Text="Ю" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="7"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="10" Background="{StaticResource RightFingerPinky}" x:Name="id52">
+                            <Grid>
+                                <TextBlock Text="?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,0,0,0"  FontSize="18"/>
+                                <TextBlock Text="/" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="12,0,0,7"  FontSize="18"/>
+                                <TextBlock Text="," HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-17,12,0"  FontSize="25"/>
+                                <TextBlock Text="." HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,12,7"  FontSize="25"/>
+                            </Grid>
+                        </Border>
+                        <Border Style="{StaticResource KeyStyle}" Grid.Column="11" Background="{StaticResource RightFingerPinky}" x:Name="id53">
+                            <Grid>
+                                <TextBlock Text="Shift" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="6"  FontSize="20"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="302"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="340"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="1" Style="{StaticResource KeyStyle}" Background="{StaticResource Thumb}" x:Name="id54"/>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Image Grid.Row="2" Grid.Column="1" Height="200" Width="200" Opacity="0.8" VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="FingerTip" Grid.RowSpan="2"/>
+        </Grid>
+        <!--Меню паузы-->
+        <Grid x:Name="Blur" Visibility="Collapsed">
+            <Grid  Background="Gray" Opacity="0.5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="400"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Border Grid.Column="1" Grid.Row="1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="80"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="Пауза" FontSize="100" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <Border Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource MenuButtonsLVL2_Next}" Margin="5" MouseLeftButtonUp="Border_MouseLeftButtonUp_1">
+                            <TextBlock Text="Продолжить" FontSize="30" Margin="10,10,10,10" ScrollViewer.CanContentScroll="True"/>
+                        </Border>
+                        <Border Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource MenuButtonsLVL2_leave}" Margin="5" MouseLeftButtonUp="TextBlock_MouseLeftButtonUp">
+                            <TextBlock Text="Завершить урок" FontSize="24" Margin="10"/>
+                        </Border>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+        <!--Меню завершения-->
+        <Grid x:Name="LastMeny" Visibility="Collapsed">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Lastmeny.jpg"/>
+            </Grid.Background>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="400"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="1" Grid.Column="1" Background="#FFA39E9E" Opacity="0.5" CornerRadius="20" BorderBrush="#FF0D1747" BorderThickness="5,11,5,5"/>
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="Lessonlvlv" Grid.Row="1" Foreground="White" Margin="10,0,0,0" FontSize="20"/>
+                    <TextBlock Text="Результаты:" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"/>
+                    <StackPanel Grid.Row="2" Orientation="Horizontal">
+                        <TextBlock Text="Затраченно времени: " Foreground="White" Margin="10,0,0,0" FontSize="20"/>
+                        <TextBlock x:Name="MinTime" Text="" Foreground="White" Margin="0,0,0,0" FontSize="20"/>
+                        <TextBlock Text=":" Foreground="White" Margin="0,0,0,0" FontSize="20"/>
+                        <TextBlock x:Name="secTime" Foreground="White" Margin="0,0,0,0" FontSize="20"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="3" Orientation="Horizontal">
+                        <TextBlock Text="Сделано ошибок: " Foreground="White" Margin="10,0,0,0" FontSize="20"/>
+                        <TextBlock x:Name="error" Foreground="White" Margin="0,0,0,0" FontSize="20"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="4" Orientation="Horizontal">
+                        <TextBlock Text="Правильных символов: " Foreground="White" Margin="10,0,0,0" FontSize="20"/>
+                        <TextBlock x:Name="CorrectSymbols" Foreground="White" Margin="0,0,0,0" FontSize="20"/>
+                    </StackPanel>
+                    <Border Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource MenuButtonsLVL2_leave}" Margin="5" CornerRadius="10">
+                        <TextBlock Text="Завершить урок" FontSize="24" Margin="10" MouseLeftButtonUp="TextBlock_MouseLeftButtonUp"/>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
