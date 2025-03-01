@@ -1,0 +1,226 @@
+E:\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+E:\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+E:\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+E:\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+E:\Keyboard simulator\bin\Debug\net6.0-windows\ref\Keyboard simulator.dll
+E:\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+E:\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+E:\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+E:\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+E:\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+E:\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+E:\Мои проекты\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+E:\Мои проекты\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+E:\Мои проекты\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+E:\Мои проекты\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+E:\Мои проекты\Keyboard simulator\bin\Debug\net6.0-windows\ref\Keyboard simulator.dll
+E:\Мои проекты\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+E:\Мои проекты\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+C:\Files\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+C:\Files\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+C:\Files\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+C:\Files\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Files\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\refint\Keyboard simulator.dll
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+C:\Files\Университет\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+C:\Files\Университет\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+C:\Files\Университет\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+C:\Files\Университет\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Files\Университет\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\refint\Keyboard simulator.dll
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+C:\Files\Университет\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\MenuButtons.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\MenuButtons.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.g.cs
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\LessonSelectionMenu.g.cs
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\LessonSetupMenu.g.cs
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\LessonSelectionMenu.baml
+C:\Files\Keyboard simulator\obj\Debug\net6.0-windows\LessonSetupMenu.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\MenuButtons.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\refint\Keyboard simulator.dll
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Users\aleks\Desktop\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+C:\Users\aleks\Desktop\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+C:\Users\aleks\Desktop\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+C:\Users\aleks\Desktop\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Users\aleks\Desktop\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.g.cs
+C:\Users\aleks\Desktop\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\MenuButtons.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.g.cs
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\refint\Keyboard simulator.dll
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+C:\My files\Уник\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+F:\University\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+F:\University\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+F:\University\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+F:\University\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+F:\University\Курсавая 3-курсс\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.AssemblyReference.cache
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\MenuButtons.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.g.cs
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\refint\Keyboard simulator.dll
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+F:\University\Курсавая 3-курсс\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.exe
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.deps.json
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.runtimeconfig.json
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\bin\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Buttons\InformationPanelButtons.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\KeyboardKeyStyle.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\MenuButtons.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Dark.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Resources HAML\Theme\Light.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.g.cs
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.cache
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator_MarkupCompile.lref
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\App.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\KeyboardSimulator.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.g.resources
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfoInputs.cache
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.AssemblyInfo.cs
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.csproj.CoreCompileInputs.cache
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.dll
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\refint\Keyboard simulator.dll
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.pdb
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\Keyboard simulator.genruntimeconfig.cache
+C:\Users\aleks\OneDrive\Рабочий стол\Keyboard simulator\obj\Debug\net6.0-windows\ref\Keyboard simulator.dll

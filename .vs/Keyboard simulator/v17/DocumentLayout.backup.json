@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\keyboardsimulator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:keyboardsimulator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\additional\u0441lass\\learningwindow\\text_output.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:additional\u0441lass\\learningwindow\\text_output.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\additional\u0441lass\\learningwindow\\keyboardhandlerenglish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:additional\u0441lass\\learningwindow\\keyboardhandlerenglish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\lastmeny.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:lastmeny.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\keyboardsimulator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:keyboardsimulator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\resources haml\\menubuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:resources haml\\menubuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\resources haml\\buttons\\informationpanelbuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:resources haml\\buttons\\informationpanelbuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\resources haml\\keyboardkeystyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:resources haml\\keyboardkeystyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\additional\u0441lass\\dynamicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:additional\u0441lass\\dynamicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\additional\u0441lass\\menu\\lessonlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:additional\u0441lass\\menu\\lessonlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|c:\\users\\aleks\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\keyboard simulator\\additional\u0441lass\\learningwindow\\keyboardhandlerrussian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D06042-AB9C-46A5-BA03-981E9C54A7E0}|Keyboard simulator.csproj|solutionrelative:additional\u0441lass\\learningwindow\\keyboardhandlerrussian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 274,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Text_Output.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\LearningWindow\\Text_Output.cs",
+              "RelativeDocumentMoniker": "Additional\u0421lass\\LearningWindow\\Text_Output.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\LearningWindow\\Text_Output.cs",
+              "RelativeToolTip": "Additional\u0421lass\\LearningWindow\\Text_Output.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\ClassDiagram1.cd",
+              "RelativeToolTip": "ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-02-24T10:18:37.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KeyboardHandlerEnglish.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\LearningWindow\\KeyboardHandlerEnglish.cs",
+              "RelativeDocumentMoniker": "Additional\u0421lass\\LearningWindow\\KeyboardHandlerEnglish.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\LearningWindow\\KeyboardHandlerEnglish.cs",
+              "RelativeToolTip": "Additional\u0421lass\\LearningWindow\\KeyboardHandlerEnglish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lastmeny.jpg",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Lastmeny.jpg",
+              "RelativeDocumentMoniker": "Lastmeny.jpg",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Lastmeny.jpg",
+              "RelativeToolTip": "Lastmeny.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-24T10:18:37.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuButtons.xaml",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Resources HAML\\MenuButtons.xaml",
+              "RelativeDocumentMoniker": "Resources HAML\\MenuButtons.xaml",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Resources HAML\\MenuButtons.xaml",
+              "RelativeToolTip": "Resources HAML\\MenuButtons.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T10:18:37.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InformationPanelButtons.xaml",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Resources HAML\\Buttons\\InformationPanelButtons.xaml",
+              "RelativeDocumentMoniker": "Resources HAML\\Buttons\\InformationPanelButtons.xaml",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Resources HAML\\Buttons\\InformationPanelButtons.xaml",
+              "RelativeToolTip": "Resources HAML\\Buttons\\InformationPanelButtons.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T10:18:37.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeyboardSimulator.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\KeyboardSimulator.xaml.cs",
+              "RelativeDocumentMoniker": "KeyboardSimulator.xaml.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\KeyboardSimulator.xaml.cs",
+              "RelativeToolTip": "KeyboardSimulator.xaml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KeyboardKeyStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Resources HAML\\KeyboardKeyStyle.xaml",
+              "RelativeDocumentMoniker": "Resources HAML\\KeyboardKeyStyle.xaml",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Resources HAML\\KeyboardKeyStyle.xaml",
+              "RelativeToolTip": "Resources HAML\\KeyboardKeyStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T10:18:37.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyboardSimulator.xaml",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\KeyboardSimulator.xaml",
+              "RelativeDocumentMoniker": "KeyboardSimulator.xaml",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\KeyboardSimulator.xaml",
+              "RelativeToolTip": "KeyboardSimulator.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T10:18:37.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LessonLevel.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\Menu\\LessonLevel.cs",
+              "RelativeDocumentMoniker": "Additional\u0421lass\\Menu\\LessonLevel.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\Menu\\LessonLevel.cs",
+              "RelativeToolTip": "Additional\u0421lass\\Menu\\LessonLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DynamicData.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\DynamicData.cs",
+              "RelativeDocumentMoniker": "Additional\u0421lass\\DynamicData.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\DynamicData.cs",
+              "RelativeToolTip": "Additional\u0421lass\\DynamicData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T10:18:37.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KeyboardHandlerRussian.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\LearningWindow\\KeyboardHandlerRussian.cs",
+              "RelativeDocumentMoniker": "Additional\u0421lass\\LearningWindow\\KeyboardHandlerRussian.cs",
+              "ToolTip": "C:\\Users\\aleks\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Keyboard simulator\\Additional\u0421lass\\LearningWindow\\KeyboardHandlerRussian.cs",
+              "RelativeToolTip": "Additional\u0421lass\\LearningWindow\\KeyboardHandlerRussian.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAowBYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:18:37.202Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

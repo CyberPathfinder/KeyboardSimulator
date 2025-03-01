@@ -1,0 +1,20 @@
+﻿Keyboard simulator
+
+
+winexe
+C#
+.cs
+E:\Keyboard simulator\obj\Release\net6.0-windows\
+Keyboard_simulator
+none
+false
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+E:\Keyboard simulator\App.xaml
+4678170447
+
+71704656803
+194-164764702
+MainWindow.xaml;Resources HAML\KeyboardKeyStyle.xaml;Resources HAML\Theme\Dark.xaml;Resources HAML\Theme\Light.xaml;
+
+False
+

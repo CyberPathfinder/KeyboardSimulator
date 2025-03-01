@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Keyboard_simulator</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Back.jpg" />
+    <None Remove="Icon.png" />
+    <None Remove="Images\Icon.png" />
+    <None Remove="Images\Menu\Menu.png" />
+    <None Remove="Images\Menu\mute.png" />
+    <None Remove="Images\Menu\volume.png" />
+    <None Remove="Images\SimulatorMenu\Back.jpg" />
+    <None Remove="Images\SimulatorMenu\InformationWindow\Stopwatch.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\Background.jpg" />
+    <None Remove="Images\SimulatorMenu\Keyboard\Hands.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\Lastmeny.jpg" />
+    <None Remove="Images\SimulatorMenu\Keyboard\LeftHand\LeftIndexFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\LeftHand\LeftLittleFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\LeftHand\LeftMiddleFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\LeftHand\LeftRingFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\LeftHand\LeftThumb.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\RightHand\RightIndexFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\RightHand\RightLittleFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\RightHand\RightMiddleFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\RightHand\RightRingFinger.png" />
+    <None Remove="Images\SimulatorMenu\Keyboard\RightHand\RightThumb.png" />
+    <None Remove="Lastmeny.jpg" />
+    <None Remove="Menu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Back.jpg" />
+    <Resource Include="Icon.png" />
+    <Resource Include="Images\Icon.png" />
+    <Resource Include="Images\Menu\Menu.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Menu\mute.png" />
+    <Resource Include="Images\Menu\volume.png" />
+    <Resource Include="Images\SimulatorMenu\Back.jpg" />
+    <Resource Include="Images\SimulatorMenu\InformationWindow\Stopwatch.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\Background.jpg" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\Hands.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\Lastmeny.jpg" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\LeftHand\LeftIndexFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\LeftHand\LeftLittleFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\LeftHand\LeftMiddleFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\LeftHand\LeftRingFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\LeftHand\LeftThumb.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\RightHand\RightIndexFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\RightHand\RightLittleFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\RightHand\RightMiddleFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\RightHand\RightRingFinger.png" />
+    <Resource Include="Images\SimulatorMenu\Keyboard\RightHand\RightThumb.png" />
+    <Resource Include="Lastmeny.jpg" />
+    <Resource Include="Menu.png" />
+  </ItemGroup>
+
+</Project>
